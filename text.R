@@ -1,4 +1,4 @@
-setwd("E:/Rise Spring 2017/Advance Business Intelligence/Assignment # 3")
+
 library(data.table)
 
 data <- fread("psychcentral_data.csv", sep=",", header=T, strip.white = T, na.strings = c("NA","NaN","","?")) 
